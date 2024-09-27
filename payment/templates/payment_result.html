@@ -11,8 +11,10 @@
     <h1>Результат оплаты</h1>
     {% if payment.status == 'succeeded' %}
     <p>Оплата прошла успешно!</p>
-    {% elif payment.status == 'canceled' %}
+    {% elif payment.status == 'failed' %}
     <p>Произошла ошибка при оплате.</p>
+    {% elif payment.status == 'canceled' %}
+    <p>Операция была отменена :(.</p>
     {% else %}
     <p>Обработка платежа, обновите страницу через некоторое время</p>
     {% endif %}

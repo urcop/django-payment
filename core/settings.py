@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["127.0.0.1", "0403-109-163-217-202.ngrok-free.app", "localhost"]
 
-CSRF_TRUSTED_ORIGINS = ["https://0403-109-163-217-202.ngrok-free.app"]
+CSRF_TRUSTED_ORIGINS = ["https://0403-109-163-217-202.ngrok-free.app", "https://auth.robokassa.ru"]
 
 
 # Application definition
@@ -130,7 +130,7 @@ YOOKASSA_SHOP_ID = '462820'
 YOOKASSA_SECRET_KEY = 'test_3fshYyxm2Gl9Sc8frTyc4GwzyrN03buWLPn_KtKH14o'
 
 ROBOKASSA_LOGIN = 'testtesturcop'
-ROBOKASSA_PASSWORD1 = 'ZwW9K4ViR98kHe6MhFIi'
-ROBOKASSA_PASSWORD2 = 'jdmkwSO2veq8ph5I8s5O'
-ROBOKASSA_TEST_MODE = True
+ROBOKASSA_PASSWORD1 = 'wghgCz8V4T7KLbMbR62H'
+ROBOKASSA_PASSWORD2 = 'vFFUhBs3OMxVe1Y4XO79'
+ROBOKASSA_TEST_MODE = 1
 
